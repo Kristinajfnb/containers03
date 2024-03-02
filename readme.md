@@ -23,7 +23,7 @@ service apache2 start- запуск службы Apache2
 5. Выполняем следующие команды:
 ls -l /var/www/html/- просмотр содержимого директории с веб-страницами Apache2
 ![7](./Снимок7.PNG)
-(echo '<h1>Hello, World!</h1>' > /var/www/html/index.html)- создаем простой HTML файл index.html с текстом "Hello, World!":
+"echo '<h1>Hello, World!</h1>' > /var/www/html/index.html"- создаем простой HTML файл index.html с текстом "Hello, World!":
 6. Обновляем страницу в браузере. Видим Hello, World!
 7. Выполняем следующие команды:
 cd /etc/apache2/sites-enabled/- переходим в директорию с конфигурационными файлами виртуальных хостов Apache2
